@@ -38,6 +38,14 @@
 					echo '<p>' . $email . '</p>';
 				}
 			?>
+			<form>
+				<div class="panel">
+				<textarea id="post"></textarea>
+				<input type="submit" class="pure-button pure-button-primary pure-u-1"
+					   name="register-submit"
+					   value="post"/>
+					</div>
+			</form>
 			<p>Fiscinas tolerare in tubinga! Cur clinias observare? Est lotus equiso, cesaris. Caesium, vita, et
 				compater.
 				Eheu, lamia! Est magnum bursa, cesaris. Secundus, audax particulas sed mire promissio de fatalis, salvus
@@ -45,3 +53,8 @@
 		</div>
 	</div>
 </div>
+
+<script>
+	var simplemde = new SimpleMDE({ element: document.getElementById("MyID") });
+	simplemde.render();
+</script>

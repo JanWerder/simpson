@@ -29,6 +29,10 @@
 		<link rel="stylesheet" type="text/css" href="css/main.css"/>
 		<link rel="stylesheet" type="text/css" href="css/messages.css"/>
 		<link rel="stylesheet" type="text/css" href="css/profile.css"/>
+		<link rel="stylesheet" type="text/css" href="css/simplemde.min.css"/>
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+
+		<script src="js/simplemde.min.js"></script>
 	</head>
 
 	<body>
